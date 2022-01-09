@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Button, Row, Col } from "antd";
+import { Card, Row, Col } from "antd";
 import Athletes from "../../assets/athletes-img.jpg";
 
 
