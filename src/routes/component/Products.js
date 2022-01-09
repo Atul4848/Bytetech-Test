@@ -2,7 +2,7 @@ import React from "react";
 import { Card } from "antd";
 
 function Products() {
-  const { Meta } = Card;
+  
   return (
     <div>
       <h1 className="developer-on-demand">Products</h1>
