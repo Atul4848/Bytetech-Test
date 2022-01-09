@@ -7,7 +7,7 @@ import Contact from "../Component/Header/Contact";
 //import App from "../routes/index";
 
 const MainAppLayout = ({ element }) => {
-  const { Header, Content, Footer, Sider } = Layout;
+ 
   return (
     <Layout>
       <Contact />
