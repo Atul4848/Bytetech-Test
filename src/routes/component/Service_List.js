@@ -3,7 +3,7 @@ import { Card } from "antd";
 import Athletes from "../../assets/athletes-img.jpg";
 
 function Service_List({ slide_data }) {
-  const { Meta } = Card;
+
   return (
     <div style={{ display: "flex", flexDirection: "row" }}>
       {slide_data.map((item) => (
