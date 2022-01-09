@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import { Carousel, Button } from "antd";
-import Service_List from "./Service_List";
+import ServiceList from "./Service_List";
 
 function Services() {
   const slider = useRef(null);
@@ -71,7 +71,7 @@ function Services() {
       <Button onClick={() => slider.current.prev()}>prev</Button>
       <Carousel ref={slider}>
         {rows.map((data) => {
-          return <Service_List key={Math.random()} slide_data={data} />;
+          return <ServiceList key={Math.random()} slide_data={data} />;
         })}
       </Carousel>
       <Button onClick={() => slider.current.next()}>next</Button>
