@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, Button, Row, Col } from "antd";
 import Athletes from "../../assets/athletes-img.jpg";
-import { Link } from "react-router-dom";
+
 
 function Case_Studies() {
   return (
