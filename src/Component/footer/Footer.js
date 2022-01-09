@@ -1,10 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import { Layout, Row, Col, Button, Input, Form } from "antd";
 import {
   AiOutlineMail,
-  AiFillInstagram,
-  AiFillTwitterSquare,
-  AiFillFacebook,
+ 
   AiFillCopyrightCircle,
 } from "react-icons/ai";
 import { FaLocationArrow } from "react-icons/fa";
